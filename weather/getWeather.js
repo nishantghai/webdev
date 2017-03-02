@@ -11,6 +11,8 @@ function getWeatherFunc()
         $('#output-para').text('Loading...');
         
         //Example : http://api.wunderground.com/api/a242d5267833f7b8/conditions/q/92128.json
+        // 'a242d5267833f7b8' is my private api key from wunderground.com
+        
         var api_url = "http://api.wunderground.com/api/a242d5267833f7b8/conditions/q/"+ zip +".json";
         console.log('Value of query url : ' + api_url );
         
