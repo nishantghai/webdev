@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Weather application</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="input-div">
+            <br><input type="text" id="input-zipcode" placeholder="Enter US zipcode here..."/>
+            <br><br><button id="button-getCurrentWeather">Get current weather</button>
+        </div>
+
+        <div class="output-div">
+            <p id="output-para-common"></p>
+        </div>
+
+        <div class="output-div">
+            <p id="output-para-accuweather"></p>
+        </div>
+
+
+        <div class="output-div">
+            <p id="output-para-openweathermap"></p>
+        </div>
+
+
+        <div class="output-div">
+            <p id="output-para-wunderground"></p>
+        </div>
+
+        <script type="text/javascript" src="./getCurrentWeatherMultipleSources.js"></script>
+    </body>
+</html>
